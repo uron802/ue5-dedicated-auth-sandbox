@@ -1,0 +1,30 @@
+{
+  "tests": [
+    {
+      "name": "GameAuth.PIE.TwoPlayerDedicatedServerAdmission",
+      "state": "Success",
+      "duration": 3.450493097305298,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "name": "GameAuth.Protocol.ExpiredAndMalformedResponses",
+      "state": "Success",
+      "duration": 0.009721003472805023,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "name": "GameAuth.Protocol.MockTicketExpiryAndReplay",
+      "state": "Success",
+      "duration": 0.00858980044722557,
+      "errors": [],
+      "warnings": []
+    }
+  ],
+  "passed": 3,
+  "failed": 0,
+  "skipped": 0,
+  "total": 3,
+  "duration": 3.468803882598877
+}

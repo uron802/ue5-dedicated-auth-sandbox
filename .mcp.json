@@ -1,0 +1,20 @@
+{
+	"mcpServers":
+	{
+		"unreal-mcp":
+		{
+			"type": "http",
+			"url": "http://127.0.0.1:8000/mcp"
+		},
+		"blender":
+		{
+			"type": "stdio",
+			"command": "C:\\Users\\takag\\AppData\\Roaming\\Claude\\Claude Extensions\\local.mcpb.blender-lab.blender\\.venv\\Scripts\\blender-mcp.exe",
+			"args": [],
+			"env":
+			{
+				"BLENDER_PATH": "C:\\Program Files\\Blender Foundation\\Blender 5.1\\blender.exe"
+			}
+		}
+	}
+}

@@ -1,0 +1,46 @@
+# --- Unreal Engine: 生成物 ---
+Binaries/
+Intermediate/
+DerivedDataCache/
+Build/
+Plugins/*/Binaries/
+Plugins/*/Intermediate/
+
+# Saved/ にはログ、バックアップ、テスト用の暗号化済み資格情報などが入る。丸ごと除外する
+Saved/
+
+# 開発者ごとのコンテンツ
+Content/Developers/
+
+# --- IDE / OS ---
+.vs/
+.vscode/
+.idea/
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+*.xcodeproj
+*.xcworkspace
+.DS_Store
+Thumbs.db
+
+# --- ビルド成果物 ---
+*.pdb
+*.exp
+*.ilk
+*.obj
+*.log
+
+# --- 秘密情報(念のため) ---
+.env
+*.pem
+*.pfx
+*.key
+*.clixml
+
+# --- AI ツールのローカル設定 ---
+.claude/settings.local.json
+.claude/worktrees/

@@ -1,0 +1,11 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "0.1",
+  "FriendlyName": "Game Account Authentication",
+  "Description": "PlayFab authentication and a dedicated server admission gate. Editor-only mock provider for local development.",
+  "Category": "Game",
+  "CanContainContent": false,
+  "Modules": [{ "Name": "GameAuth", "Type": "Runtime", "LoadingPhase": "Default" }],
+  "Plugins": [{ "Name": "DTLSHandlerComponent", "Enabled": true }]
+}
