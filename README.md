@@ -4,7 +4,7 @@ Unreal Engine 5.8 の検証用プロジェクト。PlayFab 認証と DTLS 暗号
 
 - `Plugins/GameAuth`: 認証用プラグイン(PlayFab 認証、サーバー側の入場ゲート、DTLS 通信暗号化)
 - `Content/`: Blueprint とマップ(既定マップは `DemoMap`)
-- `Docs/`: 構成、手順、検証結果([AccountAuthentication.md](Docs/AccountAuthentication.md))
+- `Docs/`: 構成、手順、検証結果([AccountAuthentication.md](Docs/AccountAuthentication.md))、部屋機能の設計方針([RoomDesign.md](Docs/RoomDesign.md)、未実装)
 
 ## 開発
 
